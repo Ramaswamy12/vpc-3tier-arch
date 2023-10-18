@@ -1,16 +1,16 @@
 variable "aws_region" {
   description = "AWS region where resources will be created"
-  default     = "us-east-1" # Change to your desired AWS region
+  default     = "ap-south-1" # Change to your desired AWS region
 }
 
 variable "ami_id" {
   description = "The ID of the Amazon Machine Image (AMI) to use for EC2 instances"
-  default     = "ami-041feb57c611358bd" # Change as needed
+  default     = "ami-0f5ee92e2d63afc18" # Change as needed
 }
 
 variable "key_name" {
   description = "The name of the EC2 key pair to use for SSH access"
-  default     = "prd01" # Change as needed
+  default     = "tf1" # Change as needed
 }
 
 variable "db_password" {
